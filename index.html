@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container header-container">
+            <a href="#" class="logo">Solo<span>Mon</span></a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h3 class="hero-subtitle">Hello, I'm</h3>
+                <h1 class="hero-title">Sagnik Mondal</h1>
+                <p class="hero-description">A passionate Full Stack Developer specializing in building exceptional
+                    digital experiences with modern technologies.</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-eye"></i> View Work
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-paper-plane"></i> Contact Me
+                    </a>
+                </div>
+            </div>
+        </div>
+
+          <!-- 3D Cube -->
+        <div class="cube-container">
+            <div class="cube">
+                <div class="cube-face front"><i class="fab fa-react"></i></div>
+                <div class="cube-face back"><i class="fab fa-node-js"></i></div>
+                <div class="cube-face right"><i class="fab fa-js"></i></div>
+                <div class="cube-face left"><i class="fab fa-html5"></i></div>
+                <div class="cube-face top"><i class="fab fa-css3-alt"></i></div>
+                <div class="cube-face bottom"><i class="fab fa-python"></i></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section - Bento Box Layout -->
+    <section id="about" class="about section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="bento-grid">
+                <div class="bento-item large accent">
+                    <div class="bento-icon"><i class="fas fa-user"></i></div>
+                    <h3 class="bento-title">Who I Am</h3>
+                    <p class="bento-text">I'm a passionate developer with over 1 years of experience creating web
+                        applications. I love solving complex problems and turning ideas into reality through elegant
+                        code.</p>
+                </div>
+                <div class="bento-item">
+                    <div class="bento-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <h3 class="bento-title">Education</h3>
+                    <p class="bento-text">BCA in Computer Application<br>Netaji Shubhas Engineering College</p>
+                </div>
+                <div class="bento-item">
+                    <div class="bento-icon"><i class="fas fa-briefcase"></i></div>
+                    <h3 class="bento-title">Experience</h3>
+                    <p class="bento-text">1+ years of Intermediate experience in web development</p>
+                </div>
+                <div class="bento-item medium">
+                    <img src="./creator.jpg" alt="Coding"
+                        class="about-image">
+                </div>
+                <div class="bento-item">
+                    <div class="bento-icon"><i class="fas fa-rocket"></i></div>
+                    <h3 class="bento-title">My Goal</h3>
+                    <p class="bento-text">To create innovative solutions that make a positive impact</p>
+                </div>
+                <div class="bento-item">
+                    <div class="bento-icon"><i class="fas fa-heart"></i></div>
+                    <h3 class="bento-title">Passion</h3>
+                    <p class="bento-text">Building intuitive and performant applications</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+
+            <!-- 3D Globe with Skills -->
+            <div class="globe-container">
+                <div class="globe">
+                    <div class="globe-circle circle-1"></div>
+                    <div class="globe-circle circle-2"></div>
+                    <div class="globe-circle circle-3"></div>
+                    <div class="globe-circle circle-4"></div>
+                    <div class="globe-circle circle-5"></div>
+                    <div class="globe-circle circle-6"></div>
+                    <div class="skill-point" style="top: 50px; left: 130px;"><i class="fab fa-react"></i></div>
+                    <div class="skill-point" style="top: 150px; left: 200px;"><i class="fab fa-node-js"></i></div>
+                    <div class="skill-point" style="top: 200px; left: 100px;"><i class="fab fa-js"></i></div>
+                    <div class="skill-point" style="top: 100px; left: 50px;"><i class="fab fa-python"></i></div>
+                    <!-- <div class="skill-point" style="top: 20px; left: 88px;"><i class="fab fa-react"></i></div>
+                    <div class="skill-point" style="top: 90px; left: 88px;"><i class="fab fa-invision"></i></div>
+                    <div class="skill-point" style="top: 90px; left: 160px;"><i class="fab fa-node-js"></i></div>
+                    <div class="skill-point" style="top: 155px; left: 88px;"><i class="fab fa-js"></i></div>
+                    <div class="skill-point" style="top: 90px; left: 25px;"><i class="fab fa-python"></i></div> -->
+                </div>
+            </div>
+
+            <div class="skills-container">
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-code"></i></div>
+                    <h3 class="skill-title">Frontend Development</h3>
+                    <p>Creating responsive and interactive user interfaces with modern frameworks and libraries.</p>
+                    <div class="skill-list">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Vue.js</span>
+                        <span class="skill-tag">SASS</span>
+                        <span class="skill-tag">Tailwind CSS</span>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-server"></i></div>
+                    <h3 class="skill-title">Backend Development</h3>
+                    <p>Building robust server-side applications and APIs to power web applications.</p>
+                    <div class="skill-list">
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Express</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Django</span>
+                        <span class="skill-tag">PHP</span>
+                        <span class="skill-tag">Laravel</span>
+                        <span class="skill-tag">RESTful APIs</span>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-database"></i></div>
+                    <h3 class="skill-title">Database & DevOps</h3>
+                    <p>Managing data and deploying applications with modern tools and practices.</p>
+                    <div class="skill-list">
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">CI/CD</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+                    <h3 class="skill-title">AI/ML Engineering</h3>
+                    <p>Creating responsive and interactive user interfaces with modern frameworks and libraries.</p>
+                    <div class="skill-list">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Tensorflow</span>
+                        <span class="skill-tag">Keras</span>
+                        <span class="skill-tag">PyTorch</span>
+                        <span class="skill-tag">Scikit-learn</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fa-brands fa-uikit"></i></div>
+                    <h3 class="skill-title">UI/UX Design</h3>
+                    <p>Creating responsive and interactive user interfaces with modern frameworks and libraries.</p>
+                    <div class="skill-list">
+                        <span class="skill-tag">Figma</span>
+                        <span class="skill-tag">Adobe XD</span>
+                        <span class="skill-tag">Sketch</span>
+                        <span class="skill-tag">InVision</span>
+                        <span class="skill-tag">User Intuitivity</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-cloud"></i></div>
+                    <h3 class="skill-title">Cloud Computing</h3>
+                    <p>Creating responsive and interactive user interfaces with modern frameworks and libraries.</p>
+                    <div class="skill-list">
+                        <span class="skill-tag">AWS</span>
+                        <span class="skill-tag">Azure</span>
+                        <span class="skill-tag">Google Cloud</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="./cubespace.png" alt="Project 1"
+                        class="project-image">
+                    <div class="project-content">
+                        <h3 class="project-title">Cubespace</h3>
+                        <p class="project-description">A fully AI based home decor application that can help to create
+                            homes without left any spaces and organized.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Typescript</span>
+                            <span class="project-tag">Node.js</span>
+                            <span class="project-tag">MongoDB</span>
+                            <span class="project-tag">Stripe</span>
+                            <span class="project-tag">Gpay</span>
+                            <span class="project-tag">PayPal</span>
+                            <span class="project-tag">Figma</span>
+                            <span class="project-tag">Prisma</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="./ss.html" class="project-link"><i class="fas fa-globe"></i></a>
+                            <a href="./sss.html" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f" alt="Project 2"
+                        class="project-image">
+                    <div class="project-content">
+                        <h3 class="project-title">Spotify Clone</h3>
+                        <p class="project-description">A rich music streaming application with user authentication and
+                            real time dynamic albums.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">React.js</span>
+                            <span class="project-tag">Next.js</span>
+                            <span class="project-tag">Socket.io</span>
+                            <span class="project-tag">PostgreSQL</span>
+                            <span class="project-tag">Github</span>
+                            <span class="project-tag">Vercel</span>
+                            <span class="project-tag">Tailwind CSS</span>
+
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-globe"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="./spaceai.png" alt="Project 3"
+                        class="project-image">
+                    <div class="project-content">
+                        <h3 class="project-title">SpaceAI</h3>
+                        <p class="project-description">A web application that leverages AI to provide website tracking
+                            and security level checking.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">TypeScript</span>
+                            <span class="project-tag">Shadcn UI</span>
+                            <span class="project-tag">Node.js</span>
+                            <span class="project-tag">MongoDB</span>
+                            <span class="project-tag">Python</span>
+                            <span class="project-tag">Flask</span>
+                            <span class="project-tag">OpenAI API</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-globe"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f" alt="Project 2"
+                        class="project-image">
+                    <div class="project-content">
+                        <h3 class="project-title">Brainwave</h3>
+                        <p class="project-description">A modern and dynamic themed website based on real time application.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">React.js</span>
+                            <span class="project-tag">Next.js</span>
+                            <span class="project-tag">Socket.io</span>
+                            <span class="project-tag">Github</span>
+                            <span class="project-tag">Vercel</span>
+                            <span class="project-tag">Tailwind CSS</span>
+
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-globe"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f" alt="Project 2"
+                        class="project-image">
+                    <div class="project-content">
+                        <h3 class="project-title">Uber Clone</h3>
+                        <p class="project-description">A rich music streaming application with user authentication and
+                            real time dynamic albums.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">React.js</span>
+                            <span class="project-tag">Next.js</span>
+                            <span class="project-tag">Socket.io</span>
+                            <span class="project-tag">PostgreSQL</span>
+                            <span class="project-tag">Github</span>
+                            <span class="project-tag">Vercel</span>
+                            <span class="project-tag">Template UI</span>
+
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-globe"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f" alt="Project 2"
+                        class="project-image">
+                    <div class="project-content">
+                        <h3 class="project-title">Xora</h3>
+                        <p class="project-description">A rich music streaming application with user authentication and
+                            real time dynamic albums.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">React.js</span>
+                            <span class="project-tag">Next.js</span>
+                            <span class="project-tag">Socket.io</span>
+                            <span class="project-tag">PostgreSQL</span>
+                            <span class="project-tag">Github</span>
+                            <span class="project-tag">Vercel</span>
+                            <span class="project-tag">Template UI</span>
+
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-globe"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3 class="contact-title">Let's Talk About Your Project</h3>
+                    <p class="contact-description">Feel free to reach out if you're looking for a developer, have a
+                        question, or just want to connect.</p>
+                    <ul class="contact-list">
+                        <li class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                            <div>
+                                <h4>Email</h4>
+                                <p>solomon928@gmail.com</p>
+                            </div>
+                        </li>
+                        <li class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+91 9834590160</p>
+                            </div>
+                        </li>
+                        <li class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Kolkata, India</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" id="name" class="form-input" placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" id="email" class="form-input" placeholder="Your Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject" class="form-label">Subject</label>
+                        <input type="text" id="subject" class="form-input" placeholder="Subject">
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea id="message" class="form-input form-textarea" placeholder="Your Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-col">
+                    <a href="#" class="logo">Solo<span>Mon</span></a>
+                    <p style="margin-top: 20px; opacity: 0.7;">A passionate developer creating amazing web experiences.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home" class="footer-link">Home</a></li>
+                        <li><a href="#about" class="footer-link">About</a></li>
+                        <li><a href="#skills" class="footer-link">Skills</a></li>
+                        <li><a href="#projects" class="footer-link">Projects</a></li>
+                        <li><a href="#contact" class="footer-link">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3 class="footer-title">Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="#" class="footer-link">Web Development</a></li>
+                        <li><a href="#" class="footer-link">AI/ML</a></li>
+                        <li><a href="#" class="footer-link">UI/UX Design</a></li>
+                        <li><a href="#" class="footer-link">Consulting</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Solomnon. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="console.js"></script>
+</body>
+
+</html>
